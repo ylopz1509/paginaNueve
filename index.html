@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polaroid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg menu-principal">
+        <div class="container">
+            <a class="navbar-brand logo" href="#"> <img src="images/logos.png" alt="Logo de Polaroid" class="logo-imagen"> Polaroid </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#promociones">Promociones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#catalogo">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" class="icono-menu"><i class="bi bi-search"></i></a>
+                    <a href="#" class="icono-menu"><i class="bi bi-person-fill"></i></a>
+                    <a href="#" class="icono-menu"><i class="bi bi-cart-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="seccion-azul">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="titulo">Lo mejor en tecnología</h1>
+                    <p class="subtitulo">Descubre la última tecnología que captura tus mejores momentos.</p>
+                    <a href="#catalogo" class="btn boton-promo">Ver Productos</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/polaroidPrincipal.png" alt="Cámara Polaroid" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </header>
+<section id="promociones" class="espaciado-seccion">
+    <div class="container">
+        <h2 class="titulo-seccion">Nuestras Promociones</h2>
+        
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="tarjeta-promo fondo-claro">
+                            <img src="images/samsung.png" class="img-fluid" alt="samsung fold">
+                            <h4 class="promo-titulo">Smartphones</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="tarjeta-promo fondo-claro">
+                            <img src="images/audioBose.png" class="img-fluid" alt="Auriculares">
+                            <h4 class="promo-titulo">Audio Premium</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="tarjeta-promo fondo-amarillo tarjeta-estirada">
+                    <img src="images/nintendo.png" class="img-fluid" alt="Control de videojuegos">
+                    <h3 class="promo-titulo-grande">JoyCons de Nintendo</h3>
+                    <p>Los mejores accesorios para gaming.</p>
+                    <span class="promo-etiqueta">50% OFF</span>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4 mt-4">
+            <div class="col-md-6">
+                <div class="tarjeta-promo fondo-claro">
+                    <img src="images/tv.png" class="img-fluid" alt="Televisión 4K">
+                    <h4 class="promo-titulo">Televisiones</h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="tarjeta-promo fondo-claro">
+                    <img src="images/xbox.png" class="img-fluid" alt="Consola de videojuegos">
+                    <h4 class="promo-titulo">Consolas</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="galeria" class="espaciado-seccion fondo-claro">
+        <div class="container">
+            <h2 class="titulo-seccion">Galería de Productos</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner rounded">
+                    <div class="carousel-item active"><img src="images/canon.png" class="d-block w-100" alt="Cámara"></div>
+                    <div class="carousel-item"><img src="images/drone.png" class="d-block w-100" alt="Drones"></div>
+                    <div class="carousel-item"><img src="images/macbook.png" class="d-block w-100" alt="Computadoras"></div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+            </div>
+        </div>
+</section>
+    <section id="catalogo" class="espaciado-seccion">
+        <div class="container">
+            <h2 class="titulo-seccion">Nuestro Catálogo</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-4">
+                <div class="col"><div class="card tarjeta-producto"><img src="images/canonCard.png" class="card-img-top"><div class="card-body"><h5 class="producto-titulo">Cámara Canon</h5><p class="producto-precio">$31,500</p></div></div></div>
+                <div class="col"><div class="card tarjeta-producto"><img src="images/pixel.png" class="card-img-top" ><div class="card-body"><h5 class="producto-titulo">Google Pixel</h5><p class="producto-precio">$15,999</p></div></div></div>
+                <div class="col"><div class="card tarjeta-producto"><img src="images/apple.png" class="card-img-top" ><div class="card-body"><h5 class="producto-titulo">AirPods Pro 3</h5><p class="producto-precio">$5,900</p></div></div></div>
+                <div class="col"><div class="card tarjeta-producto"><img src="images/switch.png" class="card-img-top" ><div class="card-body"><h5 class="producto-titulo">Nintendo Switch</h5><p class="producto-precio">$7,500</p></div></div></div>
+                <div class="col"><div class="card tarjeta-producto"><img src="images/acincuenta.avif" class="card-img-top"><div class="card-body"><h5 class="producto-titulo">Samsung a50</h5><p class="producto-precio">$9,999</p></div></div></div>
+                <div class="col"><div class="card tarjeta-producto"><img src="images/ps5.png" class="card-img-top"><div class="card-body"><h5 class="producto-titulo">PlayStation 5</h5><p class="producto-precio">$13,900</p></div></div></div>
+                <div class="col"><div class="card tarjeta-producto"><img src="images/xboxseriex.png" class="card-img-top" ><div class="card-body"><h5 class="producto-titulo">Xbox Series X</h5><p class="producto-precio">$12,999</p></div></div></div>
+                <div class="col"><div class="card tarjeta-producto"><img src="images/mac.png" class="card-img-top" ><div class="card-body"><h5 class="producto-titulo">MacBook Pro M1</h5><p class="producto-precio">$13,000</p></div></div></div>
+                <div class="col"><div class="card tarjeta-producto"><img src="images/hp.png" class="card-img-top" ><div class="card-body"><h5 class="producto-titulo">Laptop HP</h5><p class="producto-precio">$9,500</p></div></div></div>
+                <div class="col"><div class="card tarjeta-producto"><img src="images/crystal.avif" class="card-img-top"><div class="card-body"><h5 class="producto-titulo">Samsung 70 pulgadas</h5><p class="producto-precio">$22,500</p></div></div></div>
+            </div>
+        </div>
+    </section>
+    <section id="faq" class="espaciado-seccion">
+        <div class="container">
+            <h2 class="titulo-seccion">Preguntas Frecuentes</h2>
+            <div class="accordion" id="acordeonPreguntas">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            ¿Cuáles son los métodos de pago aceptados?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#acordeonPreguntas">
+                        <div class="accordion-body">
+                            Aceptamos tarjetas de crédito y débito (Visa, MasterCard, American Express). Toda la información de pago es 100% segura.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Cuánto tiempo tarda en llegar mi pedido?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#acordeonPreguntas">
+                        <div class="accordion-body">
+                            El envío estándar suele tardar entre 3 y 5 días hábiles. También ofrecemos envío expres con un costo adicional para entregas en 1-2 días hábiles.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Todos los productos tienen garantía?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#acordeonPreguntas">
+                        <div class="accordion-body">
+                            Sí, todos nuestros productos nuevos cuentan con una garantía de fábrica de al menos 12 meses.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    <section class="seccion-cta">
+        <div class="container text-center">
+            <h2 class="cta-titulo">Recibe Ofertas Exclusivas</h2>
+            <p class="cta-subtitulo">Suscríbete a nuestra pagina y sé el primero en conocer nuestras promociones.</p>
+            <button type="button" class="btn boton-promo" data-bs-toggle="modal" data-bs-target="#modalBoletin">
+                Suscribirme ahora
+            </button>
+        </div>
+    </section>
+    <section id="catalogo" class="espaciado-seccion">
+    <footer class="pie-pagina">
+        <div class="container">
+            <p>&copy; 2025 Polaroid. Todos los derechos reservados.</p>
+            <div>
+                <a href="#" class="icono-social"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="icono-social"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="icono-social"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="modalBoletin" tabindex="-1" aria-labelledby="modalBoletinLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalBoletinLabel">¡Suscríbete Gratis!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Ingresa tu correo electrónico para recibir noticias, ofertas especiales y descuentos exclusivos.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="email-boletin" class="form-label">Correo Electrónico:</label>
+                            <input type="email" class="form-control" id="email-boletin" placeholder="tu.correo@ejemplo.com">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn boton-promo">Suscribirme</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
