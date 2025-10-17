@@ -32,19 +32,67 @@
             </div>
         </div>
     </nav>
-    <header class="seccion-azul">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h1 class="titulo">Lo mejor en tecnología</h1>
-                    <p class="subtitulo">Descubre la última tecnología que captura tus mejores momentos.</p>
-                    <a href="#catalogo" class="btn boton-promo">Ver Productos</a>
+    <header id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active seccion-azul">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h1 class="titulo">Lo mejor en tecnología</h1>
+                            <p class="subtitulo">Descubre la última tecnología en un solo lugar.</p>
+                            <a href="#catalogo" class="btn boton-promo">Ver más</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="images/polaroidPrincipal.png" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <img src="images/polaroidPrincipal.png" alt="Cámara Polaroid" class="img-fluid">
+            </div>
+
+            <div class="carousel-item seccion-verde">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h1 class="titulo">Las últimas consolas.</h1>
+                            <p class="subtitulo">Compra las mejores consolas y accesorios del mercado.</p>
+                            <a href="#promociones" class="btn boton-promo">Ver más</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="images/xboxseriex.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item seccion-roja">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <h1 class="titulo">Sonido envolvente.</h1>
+                            <p class="subtitulo">Conoce nuestra gama de audio premium.</p>
+                            <a href="#catalogo" class="btn boton-promo">Ver más</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="images/audioBose.png" class="img-fluid">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </header>
 <section id="promociones" class="espaciado-seccion">
     <div class="container">

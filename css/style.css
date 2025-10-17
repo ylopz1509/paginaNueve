@@ -1,7 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
-
 .espaciado-seccion {
     padding: 48px 0; /
 }
@@ -20,9 +19,7 @@ body {
 .logo-imagen {
     height: 60px; 
     margin-right: 0.5px; 
-    
 }
-
 /* MENÚ*/
 .menu-principal {
     background-color: #ffc720;
@@ -39,17 +36,27 @@ body {
 }
 
 /*ENCABEZADO*/
-.seccion-azul {
-    background-color: #036fe1;
+header .carousel-item {
     padding: 80px 0;
     color: #fff;
     text-align: center;
 }
+
 @media (min-width: 992px) {
-    .seccion-azul {
+    header .carousel-item {
         text-align: left;
     }
 }
+.seccion-azul {
+    background-color: #036fe1;
+}
+.seccion-verde {
+    background-color: #198754; 
+}
+.seccion-roja {
+    background-color: #dc3545;
+}
+
 .titulo {
     font-size: 2.8em; 
     font-weight: 900;
@@ -131,7 +138,6 @@ body {
 .producto-precio {
     color: #6c757d;
 }
-
 /* PIE */
 .pie-pagina {
     background-color: #212529;
@@ -149,7 +155,6 @@ body {
     color: #036fe1
 }
 /* HOVER */
-
 .tarjeta-promo img,
 .tarjeta-producto .card-img-top {
     transition: transform 0.3s ease;
@@ -171,11 +176,9 @@ body {
     background-color: #f8f9fa; 
     padding: 48px 0;
 }
-
 .cta-titulo {
     font-weight: 700;
 }
-
 .cta-subtitulo {
     margin-bottom: 24px;
     color: gray;
